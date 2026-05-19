@@ -1,0 +1,7 @@
+{
+  "name": "@daolatam/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "DAOLatAm shared contracts"
+}

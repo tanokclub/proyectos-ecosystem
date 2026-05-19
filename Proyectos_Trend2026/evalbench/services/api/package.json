@@ -1,0 +1,10 @@
+{
+  "name": "@evalbench/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "EvalBench mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

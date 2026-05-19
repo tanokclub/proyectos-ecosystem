@@ -1,0 +1,10 @@
+{
+  "name": "@pymebank/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "PymeBank mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

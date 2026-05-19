@@ -1,0 +1,10 @@
+{
+  "name": "@kicklatam/gateway",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "KickLATAM mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "kicklatam",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/gateway",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@kicklatam/gateway",
+    "dev:web": "npm run dev --workspace=@kicklatam/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

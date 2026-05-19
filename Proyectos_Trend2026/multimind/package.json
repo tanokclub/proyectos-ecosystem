@@ -1,0 +1,15 @@
+{
+  "name": "multimind",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@multimind/api",
+    "dev:web": "npm run dev --workspace=@multimind/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

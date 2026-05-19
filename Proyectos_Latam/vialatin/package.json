@@ -1,0 +1,15 @@
+{
+  "name": "vialatin",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web",
+    "services/api-gateway",
+    "shared/types"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@vialatin/api-gateway",
+    "dev:web": "npm run dev --workspace=@vialatin/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "test": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    },
+    "build": {
+      "outputs": [
+        ".next/**"
+      ]
+    }
+  }
+}

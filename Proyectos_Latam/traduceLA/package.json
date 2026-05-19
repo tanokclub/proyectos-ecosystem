@@ -1,0 +1,15 @@
+{
+  "name": "traduceLA",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web",
+    "packages/api",
+    "packages/shared-types"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@traduceLA/api",
+    "dev:web": "npm run dev --workspace=@traduceLA/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@daolatam/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "DAOLatAm mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

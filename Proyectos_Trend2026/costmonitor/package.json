@@ -1,0 +1,15 @@
+{
+  "name": "costmonitor",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@costmonitor/api",
+    "dev:web": "npm run dev --workspace=@costmonitor/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

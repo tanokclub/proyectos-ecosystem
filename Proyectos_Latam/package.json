@@ -1,0 +1,41 @@
+{
+  "name": "ecosistema-latam",
+  "private": true,
+  "workspaces": [
+    "latamax",
+    "latamax/apps/*",
+    "latamax/packages/*",
+    "paylat",
+    "paylat/apps/*",
+    "paylat/services/*",
+    "paylat/packages/*",
+    "pinlat",
+    "pinlat/apps/*",
+    "pinlat/packages/*",
+    "traduceLA",
+    "traduceLA/apps/*",
+    "traduceLA/packages/*",
+    "kicklatam",
+    "kicklatam/apps/*",
+    "kicklatam/services/*",
+    "kicklatam/packages/*",
+    "vialatin",
+    "vialatin/apps/*",
+    "vialatin/services/*",
+    "vialatin/shared/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:generate": "turbo run db:generate",
+    "db:push": "turbo run db:push"
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "prettier": "^3.0.0"
+  },
+  "packageManager": "npm@10.2.4"
+}

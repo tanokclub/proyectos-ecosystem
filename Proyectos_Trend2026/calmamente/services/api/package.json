@@ -1,0 +1,10 @@
+{
+  "name": "@calmamente/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "CalmaMente mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@vialatin/api-gateway",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "ViaLatin mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

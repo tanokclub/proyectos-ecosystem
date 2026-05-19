@@ -1,0 +1,15 @@
+{
+  "name": "evalbench",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@evalbench/api",
+    "dev:web": "npm run dev --workspace=@evalbench/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

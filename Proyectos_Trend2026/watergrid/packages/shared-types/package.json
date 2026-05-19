@@ -1,0 +1,7 @@
+{
+  "name": "@watergrid/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "WaterGrid shared contracts"
+}

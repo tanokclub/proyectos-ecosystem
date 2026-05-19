@@ -1,0 +1,7 @@
+{
+  "name": "@climamodel/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "ClimaModel shared contracts"
+}

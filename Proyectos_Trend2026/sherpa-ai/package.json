@@ -1,0 +1,15 @@
+{
+  "name": "sherpa-ai",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@sherpa-ai/api",
+    "dev:web": "npm run dev --workspace=@sherpa-ai/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

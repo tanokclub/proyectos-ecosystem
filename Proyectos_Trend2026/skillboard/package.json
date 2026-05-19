@@ -1,0 +1,15 @@
+{
+  "name": "skillboard",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@skillboard/api",
+    "dev:web": "npm run dev --workspace=@skillboard/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

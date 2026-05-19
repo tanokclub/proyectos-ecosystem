@@ -1,0 +1,7 @@
+{
+  "name": "@secretsvault/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "SecretsVault shared contracts"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "fanclub",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@fanclub/api",
+    "dev:web": "npm run dev --workspace=@fanclub/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

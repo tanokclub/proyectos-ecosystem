@@ -1,0 +1,10 @@
+{
+  "name": "@pinlat/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "PinLat mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

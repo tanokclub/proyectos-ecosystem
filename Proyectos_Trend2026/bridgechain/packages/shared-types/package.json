@@ -1,0 +1,7 @@
+{
+  "name": "@bridgechain/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "BridgeChain shared contracts"
+}

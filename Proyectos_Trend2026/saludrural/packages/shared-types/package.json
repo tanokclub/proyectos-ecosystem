@@ -1,0 +1,7 @@
+{
+  "name": "@saludrural/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "SaludRural shared contracts"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "escrowchain",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@escrowchain/api",
+    "dev:web": "npm run dev --workspace=@escrowchain/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

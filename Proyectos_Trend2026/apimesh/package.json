@@ -1,0 +1,15 @@
+{
+  "name": "apimesh",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@apimesh/api",
+    "dev:web": "npm run dev --workspace=@apimesh/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "triajeai",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@triajeai/api",
+    "dev:web": "npm run dev --workspace=@triajeai/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

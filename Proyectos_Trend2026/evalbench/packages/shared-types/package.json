@@ -1,0 +1,7 @@
+{
+  "name": "@evalbench/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "EvalBench shared contracts"
+}

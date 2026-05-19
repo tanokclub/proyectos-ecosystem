@@ -1,0 +1,15 @@
+{
+  "name": "biowear",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@biowear/api",
+    "dev:web": "npm run dev --workspace=@biowear/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

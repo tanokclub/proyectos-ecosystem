@@ -1,0 +1,15 @@
+{
+  "name": "ragforge",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@ragforge/api",
+    "dev:web": "npm run dev --workspace=@ragforge/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

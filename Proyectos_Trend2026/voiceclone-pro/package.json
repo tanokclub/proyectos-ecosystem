@@ -1,0 +1,15 @@
+{
+  "name": "voiceclone-pro",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@voiceclone-pro/api",
+    "dev:web": "npm run dev --workspace=@voiceclone-pro/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

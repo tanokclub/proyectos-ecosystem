@@ -1,0 +1,15 @@
+{
+  "name": "carbontrack",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@carbontrack/api",
+    "dev:web": "npm run dev --workspace=@carbontrack/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

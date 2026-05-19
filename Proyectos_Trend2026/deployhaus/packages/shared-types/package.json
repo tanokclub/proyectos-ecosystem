@@ -1,0 +1,7 @@
+{
+  "name": "@deployhaus/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "DeployHaus shared contracts"
+}

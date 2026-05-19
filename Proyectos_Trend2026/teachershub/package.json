@@ -1,0 +1,15 @@
+{
+  "name": "teachershub",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@teachershub/api",
+    "dev:web": "npm run dev --workspace=@teachershub/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

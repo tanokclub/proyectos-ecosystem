@@ -1,0 +1,10 @@
+{
+  "name": "@triajeai/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "TriajeAI mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

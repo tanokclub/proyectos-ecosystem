@@ -1,0 +1,7 @@
+{
+  "name": "@voiceclone-pro/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "VoiceClone Pro shared contracts"
+}

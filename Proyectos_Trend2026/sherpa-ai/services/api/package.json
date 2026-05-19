@@ -1,0 +1,10 @@
+{
+  "name": "@sherpa-ai/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Sherpa AI mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

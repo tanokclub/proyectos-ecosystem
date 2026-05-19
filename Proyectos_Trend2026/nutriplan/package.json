@@ -1,0 +1,15 @@
+{
+  "name": "nutriplan",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@nutriplan/api",
+    "dev:web": "npm run dev --workspace=@nutriplan/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

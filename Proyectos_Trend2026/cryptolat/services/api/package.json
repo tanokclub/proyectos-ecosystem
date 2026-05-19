@@ -1,0 +1,10 @@
+{
+  "name": "@cryptolat/api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "CryptoLat mock service",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  }
+}

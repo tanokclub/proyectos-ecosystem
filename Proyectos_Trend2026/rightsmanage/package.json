@@ -1,0 +1,15 @@
+{
+  "name": "rightsmanage",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@rightsmanage/api",
+    "dev:web": "npm run dev --workspace=@rightsmanage/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

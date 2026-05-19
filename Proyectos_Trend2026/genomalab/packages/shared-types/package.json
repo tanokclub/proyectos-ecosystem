@@ -1,0 +1,7 @@
+{
+  "name": "@genomalab/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "GenomaLab shared contracts"
+}

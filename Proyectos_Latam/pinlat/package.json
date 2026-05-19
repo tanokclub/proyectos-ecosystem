@@ -1,0 +1,16 @@
+{
+  "name": "pinlat",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/shared-types"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@pinlat/api",
+    "dev:web": "npm run dev --workspace=@pinlat/web",
+    "build:web": "npm run build --workspace=@pinlat/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

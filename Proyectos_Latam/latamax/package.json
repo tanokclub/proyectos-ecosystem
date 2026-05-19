@@ -1,0 +1,16 @@
+{
+  "name": "latamax",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/shared",
+    "packages/ui"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@latamax/api",
+    "dev:web": "npm run dev --workspace=@latamax/web",
+    "test": "node scripts/validate.mjs"
+  }
+}

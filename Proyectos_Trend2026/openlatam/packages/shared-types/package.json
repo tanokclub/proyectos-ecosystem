@@ -1,0 +1,7 @@
+{
+  "name": "@openlatam/shared-types",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "OpenLatAm shared contracts"
+}

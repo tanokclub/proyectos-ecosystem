@@ -1,0 +1,15 @@
+{
+  "name": "cryptolat",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/api",
+    "packages/shared-types",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@cryptolat/api",
+    "dev:web": "npm run dev --workspace=@cryptolat/web",
+    "test": "node scripts/validate.mjs"
+  }
+}
