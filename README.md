@@ -1,5 +1,11 @@
 # Proyectos Ecosystem
 
+> 🚀 **Upgrade aplicado (offline):** las 96 APIs mock ahora son **stateful** (CRUD real,
+> filtros, búsqueda, paginación, OpenAPI autogenerado, métricas Prometheus, auth opcional)
+> con **cero dependencias** (Node puro). Ver **[UPGRADE_MASTER_PLAN.md](./UPGRADE_MASTER_PLAN.md)**.
+> Cada proyecto trae `docs/IMPLEMENTATION_PLAN.md`, `docs/ADVANCED_FEATURES.md` e
+> `INSTALL_WHEN_ONLINE.md` (qué instalar apenas haya internet). Motor: `tools/mock-engine.mjs`.
+
 Mega-repo con dos ecosistemas de proyectos scaffold:
 
 ## 📍 [Proyectos_Latam/](./Proyectos_Latam/) — 6 proyectos LATAM
