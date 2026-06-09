@@ -483,6 +483,7 @@ function turboJson() {
   return JSON.stringify(
     {
       $schema: 'https://turbo.build/schema.json',
+      extends: ['//'],
       tasks: {
         test: {
           outputs: []
